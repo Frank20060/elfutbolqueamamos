@@ -1,0 +1,173 @@
+
+
+
+/*               menu             */
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+
+#menu{
+    display: flex;
+    background-color: #2e518b;
+    justify-content: center;
+}
+
+/* items del menu */
+
+#menu ul li {
+    background-color:#2e518b;
+}
+
+/* enlaces del menu */
+
+#menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+/* items del menu */
+
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0px;
+    padding: 10px;
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+#menu ul li:hover {
+    background:#5b78a7;
+}
+/* menu desplegable */
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+}
+
+/* items del menu desplegable */
+
+#menu ul ul li {
+    float:none;
+    width:200px
+}
+
+/* enlaces de los items del menu desplegable */
+
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+#menu ul li:hover > ul {
+    display:block;
+}
+
+
+
+/*             Body          */
+
+
+
+
+.menciones{
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(229, 242, 252);
+}
+
+
+p, li{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+p{
+    margin: 20px;
+    text-align: justify;   
+}
+h1{
+    font-size: 80px;
+    font-family: Candara;
+    padding: 30px;
+}
+h2{
+    font-size: 40px;
+    font-family: Candara;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+
+/*      Imágenes        */
+
+.derecha{
+    display: flex;
+    text-align: right;
+}
+
+.izquierda{
+    display: flex;
+    text-align: left;
+}
+
+.centro li img{
+    display: flex;
+}
+
+.centro li{
+    text-align: justify;
+
+}
+
+img{
+    width: 600px;
+    margin: 70px;
+    border: black 7px solid;
+}
+.logos{
+    border: none;    
+    height: 200px;
+    width: 300px;
+}
+.logosdiv{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.fotos{
+    display: flex;
+    justify-content: center;
+
+}
+.fotos img{
+    width: 400px;
+}
+
+
+/*------Videos------*/
+
+
+
